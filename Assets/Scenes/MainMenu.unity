@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -382,7 +382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -67.4, y: -62.4}
+  m_AnchoredPosition: {x: -67.3999, y: -62.399902}
   m_SizeDelta: {x: 76.77388, y: 77.83171}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &256036942
@@ -1124,7 +1124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.8000488, y: 62.299988}
+  m_AnchoredPosition: {x: -0.8000488, y: 67}
   m_SizeDelta: {x: -35.97632, y: 124.56477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1565772065
@@ -1151,9 +1151,8 @@ MonoBehaviour:
     in this reminds you of something familiar then yes, I've watched a lot of youtube
     tutorials and copied them with my own style
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3199409928624324999b9336dd1ed8f3, type: 2}
-  m_sharedMaterial: {fileID: 21032597133445202, guid: 3199409928624324999b9336dd1ed8f3,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1177,8 +1176,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1433,7 +1432,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -80, y: -45.598}
+  m_AnchoredPosition: {x: -80, y: -45.5979}
   m_SizeDelta: {x: 76, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1898167552
@@ -1670,10 +1669,20 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3793542234376375790, guid: acbdab94f5bdbe849acef200780a35da,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 34.30005
+      objectReference: {fileID: 0}
     - target: {fileID: 3793542235307025857, guid: acbdab94f5bdbe849acef200780a35da,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3793542235307025857, guid: acbdab94f5bdbe849acef200780a35da,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 35.96997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acbdab94f5bdbe849acef200780a35da, type: 3}
@@ -1688,6 +1697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666384894704563009, guid: 830efa28c84138a47a8fd6979eed6351,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666384894704563010, guid: 830efa28c84138a47a8fd6979eed6351,
         type: 3}
@@ -1752,7 +1766,7 @@ PrefabInstance:
     - target: {fileID: 4666384894704563010, guid: 830efa28c84138a47a8fd6979eed6351,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 4666384894704563010, guid: 830efa28c84138a47a8fd6979eed6351,
         type: 3}
@@ -1822,6 +1836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OptionsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8836850988973151884, guid: b85935441cbaa4649ae8246eb82a0e27,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8836850988973151885, guid: b85935441cbaa4649ae8246eb82a0e27,
         type: 3}
@@ -1938,6 +1957,31 @@ PrefabInstance:
       propertyPath: qualityDropDown
       value: 
       objectReference: {fileID: 1519269680}
+    - target: {fileID: 8836850989405884952, guid: b85935441cbaa4649ae8246eb82a0e27,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8836850989405884952, guid: b85935441cbaa4649ae8246eb82a0e27,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8836850989405884952, guid: b85935441cbaa4649ae8246eb82a0e27,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8836850989556917181, guid: b85935441cbaa4649ae8246eb82a0e27,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8836850989556917181, guid: b85935441cbaa4649ae8246eb82a0e27,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8836850989866704422, guid: b85935441cbaa4649ae8246eb82a0e27,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

@@ -5201,7 +5201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useKeys: 1
-  useParallax: 0
+  useParallax: 1
   animSpeed: 1
   options:
   - New Game
